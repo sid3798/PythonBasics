@@ -1,3 +1,6 @@
+
+#lists are mutable
+
 topics = []
 topics = ['python','c','ethical hacking']
 

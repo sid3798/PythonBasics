@@ -1,3 +1,5 @@
+#tuples are immutable that is it cannot be changed
+
 topics = ('d','c','b','a')
 print(topics)
 
