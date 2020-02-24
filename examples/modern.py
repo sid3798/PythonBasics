@@ -1,11 +1,11 @@
 #this is basic application to demonstrate banking transaction using list, tuples, dictionary
 import sys
 
-bank_name = "Modern College of Vashi"
+clg_name = "Modern College of Vashi"
 students = {}
 id_no = 1
 while 1:
-    print("[+] {} [+]".format(bank_name))
+    print("[+] {} [+]".format(clg_name))
     print("  1) Add Student \n  2) Delete Student \n  3) Show Students \n  4) Student Info \n  5) Exit")
     choice = int(input("Enter Your choice: "))
     if choice == 1:
@@ -17,7 +17,7 @@ while 1:
         id_no = id_no + 1
     if choice == 2:
         id_no = int(input("Enter account ID : "))
-        del students[account_no]
+        del students[id_no]
     if choice == 3:
         for i in students:
             print("\n")
